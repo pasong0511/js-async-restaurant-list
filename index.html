@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>식당운영</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="root">
+    <h1>식당운영</h1>
+    <div>
+        <div>
+          <button class="foodBtn1">국밥</button>
+          <button class="foodBtn2">스테이크</button>
+        </div>
+        <div>
+          <h2>주문</h2>
+          <ul class="orderListUl"></ul>
+        </div>
+        <div>
+          <h2>매니저</h2>
+          <div class="magager">
+            <span>열혈매니저</span>
+            <span class="magagerState">대기</span>
+          </div>
+          <div class="magager">
+            <span>부매니저</span>
+            <span class="magagerState">대기</span>
+          </div>
+        </div>
+        <div>
+          <h2>요리사</h2>
+          <div class="chef">
+            <span>장금이</span>
+            <span class="chefState">대기</span>
+          </div>
+          <div class="chef">
+            <span>백주부</span>
+            <span class="chefState">대기</span>
+          </div>
+        </div>
+        <div>
+          <h2>음식</h2>
+          <ul class="foodListUl"></ul>
+        </div>
+  </div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
